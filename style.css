@@ -1,0 +1,104 @@
+
+
+
+.logo img{
+    background-size: cover;
+    background-position: center;
+    width: 250px;
+    height: 250px;
+}
+
+.card{
+    background: unset;
+    border: none;
+
+}
+.card-svg h2 {
+    padding-top: 20px;
+    color: black;
+
+}
+.card-svg hr{
+    border-top: 3px solid black;
+}
+.card{
+    z-index: 2;
+}
+.box{
+    height: 370px;
+    width: 300px;
+    border: 3px solid black;
+    border-radius: 20px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: white;
+
+    
+}
+.box img{
+    background-position: center;
+    background-size: cover;
+    border-radius: 20px;
+    width: 270px;
+    height: 300px;
+    margin-top: 10px;
+    border: 2px solid blue;
+    align-content: center;
+}
+.box-dalam{
+    margin-top: -60px;
+    background-color: blue;
+    height: 100px;
+    width: 270px;
+    border-radius: 20px;
+    align-content: center;
+    justify-content: center;
+}
+.box h3{
+    margin-top: 20px;
+    color: white;
+}
+.box p{
+    font-size: 15px;
+    color: white;
+    text-align: left;
+    width: 250px;
+    height: 150px;
+}
+.box-dalam .socials a{
+    margin-right: 10px;
+    font-size: 30px;
+    color:white;
+}
+
+
+
+hr{
+    border-top: 5px solid black;
+    margin: auto;
+    width: 300px;
+    align-content: center;
+    border-radius: 30px;
+}
+
+footer {
+    background: blue;
+    color: #d3d3d3;
+    position: relative;
+    flex: 1;
+    height: 78px;
+    bottom: 0;
+}
+footer .kembali{
+    padding-top: 7px;
+}
+.copyright {
+    position: absolute;
+    background: #6200ff;
+    color: #f1f2f3;
+    height: 30px;
+    text-align: center;
+    width: 100%;
+    bottom: 0;
+
+}
